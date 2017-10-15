@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: helvetica, arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color: #5bc5ed;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#presentacion {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(../imagenes/enjoy-live.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo {
+    float: left;
+    max-width: 350px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#logo img {
+    max-width: 350px;
+}
+
+#menu {
+    float: right;
+    margin-top: 75px;
+}
+
+#menu ul li {
+    float: left;
+    list-style: none;
+    width: 120px;
+    text-align: left;
+    color: #999;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#slogan {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagenes/meetings-eventos2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slogan p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 70px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px 1px #333333;
+}
+
+footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #BBB;
+    color: #FFF;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+/* Media Queries para visualización en dispositivos móviles */
+
+@media (max-width:700px) {
+    #presentacion {
+        background-image: url(../imagenes/enjoy-live-300.jpg);
+    }
+    #logo {
+        max-width: 280px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    #logo img {
+        max-width: 280px;
+    }
+    #menu {
+        margin-top: 5px;
+    }
+}
